@@ -54,7 +54,8 @@ nav ul li a:hover{
   text-align: center;
   font-style: italic;
   font-size: 18px;
-  color: rgba(75, 160, 240, 0.795);
+  color: black;
+  font-weight: 600;
 
 }
 
