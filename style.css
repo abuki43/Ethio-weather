@@ -1,0 +1,194 @@
+body{
+  margin: auto;
+  text-align: center;
+  padding: 0; 
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+#logo img{
+  position: absolute;
+  left: 0;
+  margin-left: 20px;
+  width: 70px;
+  height: 70px;
+  border: 1px solid #143887;
+  border-radius: 50%;
+  padding: 2px;
+}
+nav ul{
+  margin-right: 15%;
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li{
+  list-style-type:none;
+  display:inline-block;
+  padding: 10px 5%;
+}
+
+nav ul li a{
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+  
+}
+
+nav ul li a:hover{
+  cursor: pointer;
+  color: #143887;
+  transition: .4s;
+}
+.header{
+  text-align: center;
+  color: #143887;
+  font-size: 41px;
+  font-weight: 600;
+}
+.subheader{
+  text-align: center;
+  font-style: italic;
+  font-size: 18px;
+
+}
+
+content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+input{
+  height: 29px;
+  width: 250px;
+  border: 2px solid #143887;
+  margin-right: 20px;
+  padding: 4px 15px;
+  border-radius: 7px;
+}
+
+button{
+  height: 37px;
+  padding: 4px 15px;
+  border: 2px solid #143887;
+  border-radius: 7px;
+  font-size: 16px;
+  
+}
+
+button:hover{
+  background-color: #143887;
+}
+
+.result{
+  margin-top: 5%;
+  text-align: center;
+  
+}
+.result-content{
+  color: #143887;
+  font-weight:900;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+
+#error{
+  position: absolute;
+  top: 50px;
+  left: 35%;
+  color: red;
+  font-size: 19px;
+  
+}
+#myVideo {
+  position: fixed;
+  
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -1;  
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover; 
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  
+}
+hr{
+  margin: 1px 13% 1px 16%;
+  color: #143887;
+}
+
+.contact{
+  color: #143887;
+  font-size: 20px;
+  margin-bottom: 13px;
+}
+.result-content a{
+  color: black;
+  font-size: 22px
+}
+
+#city-name{
+  font-size: 27px;
+  color: black;
+}
+
+
+
+@media  (max-width:590px) {
+  body{
+    margin: auto;
+    padding: 15px;
+  }
+  #logo img{
+    width: 40px;
+    height: 40px;
+    top: 5%;
+    left: 0%;
+  }
+  content{
+    display: flex;
+    flex-direction: column;
+  }
+  input{
+    
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  button{
+    margin-top: 29px;
+    display: block;
+    margin-bottom: 0;
+  }
+  .header{
+    margin-top: 30px;
+  }
+  hr{
+    margin: 1px 13% 1px 18%;
+  }
+  #error{
+    position: absolute;
+    top: 60px;
+    left: 30%;
+    font-size: 14px;
+  }
+  nav ul{
+    margin-left: 4%;}
+  
+  
+}
+
+@media  (max-width:305px){
+   input{
+    width: 190px;
+   }
+}

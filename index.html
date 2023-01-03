@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethio weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <video poster="./img/bg-img.jpg" autoplay muted loop id="myVideo">
+      <source src="vid.mp4" type="video/mp4">
+    </video>
+    
+    <div id="logo">
+      <img src="img/Ethio weather img 1.png" alt="logo-img">
+    </div>
+    <nav>
+      <ul>
+        <li><a>Home </a></li>
+        <li><a>About</a></li>
+        <li><a href="service.html">service</a></li>
+        <li><a href="contact.html">contact us</a></li>
+      </ul>
+    </nav>
+    <hr>
+    <h2 class="header">Ethio Weather</h2>
+    <p class="subheader" >Search for any city or country name...</p>
+    <content>
+      
+      <input id="input"type="text" placeholder="Enter a city name">
+      <button id="search">Search</button>
+      <div id="error"></div>
+    </content>
+    
+    <div class="result">
+      
+      <div class="result-content">City name: <a id="city-name">---</a></div>
+      <div class="result-content">Temprature in ℉: <a id="temp-F">---</a></div>
+      <div class="result-content">Temprature in ℃: <a id="temp-C">---</a></div>
+      <div class="result-content">weather-type: </weather-type> <a id="weather-type">---</a></div>
+      <div class="result-content" >humidity:<a id="humidity">---</a></div>
+
+
+    </div>
+    
+  </main>  
+  <script src="app.js"></script>
+</body>
+</html>
